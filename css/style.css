@@ -1,0 +1,336 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    font-weight: normal;
+    line-height: 1.7;
+}
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    padding: 25px 44px 72px;
+    box-sizing: border-box;
+    background-image: url(../assets/img/overlay.png), url(../assets/img/bg.jpg);
+    background-position: left top;
+    background-size: auto, cover;
+    text-align: right;
+}
+.hs{
+    font-size: 36px;
+    color: #787878;
+}
+p{
+    font-size: 1em;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #787878;
+    font-weight: normal;
+    margin: 0 0 24px;
+}
+sub,sup{
+    font-size: 12px;
+}
+blockquote{
+    border-left: 5px solid #efefef;
+    margin: 2em 0px;
+    padding: .5em 0px .5em 1.5em;
+}
+code{
+    background: #f7f7f7f7;
+    border-radius: .35em;
+    border: 2px solid #efefef;
+    padding: 0.25em 0.65em;
+    font-family: 'Courier New' monospace;
+    color: #929292;
+}
+pre code{
+    display: block;
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.ul-alternate{
+    list-style-type: none;
+}
+.ul-alternate li{
+    border-bottom: 2px solid rgb(196, 195, 195);
+}
+.ul-alternate li:last-child{
+    border: 0;
+}
+.ul-icons{
+    list-style-type: none;
+    padding-left: 0;
+}
+input, label, textarea, select{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+input, textarea, select{
+    background: #ccc;
+    padding: 5px;
+    border: 2px solid transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+input:focus, textarea:focus {
+    border: 2px solid #49bf9d;
+    outline: none;
+}
+.ul-icons li{
+    display: inline-block;
+    font-size: 2em;
+    margin: 0px 10px 0px 0px;
+    color: #49bf9d;
+}
+input[type="radio"], input[type="checkbox"]{
+    width: auto;
+}
+/*GRID*/
+.row{
+    overflow:auto;
+}
+.col-2{
+    width: 48.5%;
+    float: left;
+}
+.col-2:first-child{
+    margin-right: 1.5%;
+}
+.col-2:last-child{
+    margin-left: 1.5%;
+}
+.col-2-3{
+    width: 64%;
+    float: left;
+}
+.col-1-3{
+    width: 32%;
+    float: left;
+}
+.col-1-3:nth-child(3n - 2) {
+    margin-right:2%;
+}
+.col-1-3:nth-child(3n) {
+    margin-left:2%;
+}
+.col-2-3, .col-1-3, .col-2-3, .col-1-3{
+    margin-left: 2%;
+}
+.thubs img{
+    margin: 5px 0px ;
+}
+a{
+    transition: color .2s linear;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.over{
+    position: fixed;
+    margin: 10% 0px 0px -1%;
+    margin-top: -5px;
+    height: 110px;
+    margin-left: 10px;
+    width: 11%;
+    background:  rgb(204, 203, 203) ;
+    border-radius: 50% 50% 0px 0px;
+}
+.avatar{
+    position: relative;
+    height: 20%;
+    width: 41%;
+    margin-left: 10px;
+}
+strong{
+    font-weight: normal;
+    color: white;
+}
+section .link{
+    text-decoration: none;
+    color: #686565;
+}
+section .link:hover{
+    text-decoration: none;
+    color: #49bf9d;
+    border-bottom: none;
+}
+.main-header-title{
+    font-size: 22px;
+    line-height: 1.5;
+    color: white;
+    font-weight: normal;
+    color: rgba(255, 255, 255, .5);
+}
+.main-content{
+    width: 65%;
+    margin-left: 35%;
+    padding: 80px 54px 72px;
+    box-sizing: border-box;
+}
+.main-header > a{
+    border: 0;
+}
+.btn-01{
+    color: #666;
+    border: 2px solid #949494;
+    border-radius: 3px;
+    height: 50px;
+    width: 120px;
+}
+.btn-01:hover {
+    background:none;
+    background-color:none;
+    text-decoration: none;
+    border: 2px solid #49bf9d;
+    border-radius: 3px;
+    height: 50px;
+    width: 120px;
+}
+a{
+    text-decoration: none;
+}
+.btn-01 a:hover{
+    background:none;
+    color: none;
+    background-color: none;
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    width: 120px;
+}
+button > .mais-1{
+    background: transparent;
+    color: #666;
+    border-radius: 3px;
+    border: none;
+}
+.mais-0{
+    width: 180px;
+    height: 45px;
+}
+.mais-0:hover {
+    background: transparent;
+    border-color: transparent;
+    color: #49bf9d;
+    border: 2px solid #49bf9d;
+    border-radius: 3px;
+}
+header a{
+    color: gray;
+    text-decoration: none;
+}
+header a:hover{
+    color: #49bf9d;
+    border-bottom: none;
+}
+.icons-header{
+    gap: 20px;
+    font-size: 50px;
+}
+.imagem-link{
+    border: 0;
+}
+.button-default{
+    background-color: #49bf9d;
+    border: 2px solid #49bf9d;
+    color: white;
+    width: auto;
+    display:inline-block;
+    padding: .75em 1.7em;
+    border-radius: 5px;
+    font-size: .8em;
+    transition: all .5s;
+    cursor: pointer;
+}
+.button-default-stroke{
+    background-color: transparent;
+    background: white;
+    border-color: #949494;
+    border-radius: 5px;
+    color: inherit;
+    width: auto;
+}
+.button-default:hover{
+    background-color: #49bf9d;
+    border-color: transparent;
+}
+.button-default-stroke:hover{
+    background: #49bf9d;
+    border-color: #49bf9d;
+    background-color: white;
+}
+.button-default-small{
+    font-size: .65em;
+}
+.button-full{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 0px;
+}
+.table{
+    width: 100%;
+    margin: 0 0 2em 0;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+.table td{
+    padding: .75em;
+}
+.table th{
+    background: #ccc;
+    padding: .75em;
+}
+.table tbody tr td{
+    border-bottom: 1px solid #ccc;
+}
+.table tbody tr:first-child td{
+    border-top: 2px solid #666;
+}
+.table tbody tr:last-child td{
+    border-bottom: 2px solid #666;
+}
+.table tbody tr:nth-child(odd) td{
+    background: #ddd;
+}
+.table-alternate tbody td, .table-alternate tbody tr:first-child td, .table-alternate tbody tr:last-child td{
+    border: 1px solid rgb(151, 151, 151);
+}
+.table-alternate thead, th{
+    border: 1px solid rgb(151, 151, 151);
+}
+.bio{
+    height: 90px;
+    width: 15%;
+    background:  rgb(151, 151, 151) ;
+}
+.main-footer{
+    position: fixed;
+    width: 35%;
+    color: #929292;
+    bottom: 0;
+    top: 63%;
+    left: 0;
+    padding: 0px 44px 72px 0px;
+    box-sizing: border-box;
+    text-align: right;
+}
+li p a{
+    color: #acabab;
+}
+li p a:hover{
+    color: #49bf9d;
+    border-bottom: none;
+}
